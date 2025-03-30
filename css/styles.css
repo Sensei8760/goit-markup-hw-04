@@ -252,8 +252,19 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
+
 .team-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  color: #f4f4fd;
+}
+.team-icon-svg {
+  background-color: #4d5ae5;
 }
 /*portfolio*/
 .portfolio-title {
