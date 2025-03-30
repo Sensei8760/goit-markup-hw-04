@@ -316,6 +316,7 @@ section {
 }
 
 /*footer*/
+
 .section-footer {
   background: #2e2f42;
   padding: 100px 0;
@@ -338,10 +339,16 @@ section {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  max-width: 264px;
 }
 .footer-logo-studio {
   color: #f4f4fd;
+}
+.footer-cont-soc {
+  display: flex;
+  align-items: baseline;
+}
+.footer-cont {
+  margin-right: 120px;
 }
 .footer-text-link {
   font-weight: 500;
@@ -350,13 +357,10 @@ section {
   letter-spacing: 0.02em;
   color: #fff;
 }
-.footer-cont {
-  display: flex;
-  align-items: baseline;
-}
 .footer-text-link {
   margin-bottom: 16px;
 }
+
 .footer-icon-list {
   display: flex;
   justify-content: center;
@@ -380,7 +384,4 @@ section {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
   background-color: #31d0aa;
-}
-.cont {
-  margin-right: 120px;
 }
